@@ -1,0 +1,17 @@
+{
+  "name": "profinance-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.29.0.2",
+    "sqlite3": "^6.0.1"
+  }
+}

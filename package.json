@@ -1,0 +1,23 @@
+{
+  "name": "profinance-fullstack",
+  "version": "2.0.0",
+  "description": "Multi-user ProFinance dashboard with SQLite, React, and Express",
+  "main": "backend/server.js",
+  "scripts": {
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "server": "node backend/server.js",
+    "client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
